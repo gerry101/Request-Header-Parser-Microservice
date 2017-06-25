@@ -1,0 +1,17 @@
+{
+  "name": "request_header_parser_microservice",
+  "version": "1.0.0",
+  "description": " To allow a user to get the IP address, language and operating system for their browser.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Gerry Migwi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-useragent": "^1.0.7"
+  }
+}
